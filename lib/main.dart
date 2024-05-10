@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widget/sample_container.dart';
-import 'package:flutter_application_1/widget/sample_image.dart';
+// import 'package:flutter_application_1/widget/sample_image.dart';
+// import 'package:flutter_application_1/widget/sample_image_circle.dart';
+// import 'package:flutter_application_1/widget/sample_listview.dart';
+import 'package:flutter_application_1/widget/sample_listview2.dart';
 // import 'package:flutter_application_1/widget/sample_text.dart';
 
 void main() {
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.red,
         ),
-        home: const SampleImage());
+        home: SampleListView2());
   }
 }
 
